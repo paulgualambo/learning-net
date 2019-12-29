@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tigua.universal.model", "ti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tigua.universal.unittest", "tigua.universal.unittest\tigua.universal.unittest.csproj", "{8F88B7F7-FCF4-4F50-BDD8-DAEBF2691B7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tigua.universal.businesslogic", "tigua.universal.businesslogic\tigua.universal.businesslogic.csproj", "{3E3535DE-2CAD-4C60-A801-CF1D9C4F857C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tigua.universal.businesslogic.test", "tigua.universal.businesslogic.test\tigua.universal.businesslogic.test.csproj", "{318145F6-FFD9-42E8-B017-435AA2EF0CEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{8F88B7F7-FCF4-4F50-BDD8-DAEBF2691B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F88B7F7-FCF4-4F50-BDD8-DAEBF2691B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F88B7F7-FCF4-4F50-BDD8-DAEBF2691B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E3535DE-2CAD-4C60-A801-CF1D9C4F857C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3535DE-2CAD-4C60-A801-CF1D9C4F857C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3535DE-2CAD-4C60-A801-CF1D9C4F857C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3535DE-2CAD-4C60-A801-CF1D9C4F857C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318145F6-FFD9-42E8-B017-435AA2EF0CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318145F6-FFD9-42E8-B017-435AA2EF0CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318145F6-FFD9-42E8-B017-435AA2EF0CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318145F6-FFD9-42E8-B017-435AA2EF0CEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
