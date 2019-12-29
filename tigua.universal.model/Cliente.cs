@@ -4,13 +4,18 @@ namespace tigua.universal.model
 {
     public class Cliente
     {
-        public string Nombre;
-        public string Paterno;
-        public string Materno;
+        private string nombre;
+        private string paterno;
+        private string materno;
+        private string numeroDocumento;
+        private string tipoDocumento;
+        private string email;
 
-        public string NumeroDocumento;
-        public string TipoDocumento;
-
-        public string Email;
+        public string Nombre { get => nombre; set => nombre = value; }
+        public string Paterno { get => paterno; set => paterno = value; }
+        public string Materno { get => materno; set => materno = value; }
+        public string NumeroDocumento { get => numeroDocumento; set => numeroDocumento = value; }
+        public string TipoDocumento { get => tipoDocumento; set => tipoDocumento = value; }
+        public string Email { get => email; set => email = value; }
     }
 }

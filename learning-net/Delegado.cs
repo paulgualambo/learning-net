@@ -33,12 +33,11 @@ namespace learning_net
     /// Se maneja con Eventos y Multitarea
     /// https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/
     /// 
+    /// 
     /// </summary>
     public class Delegado
     {
-        private primerDelegado pruebaDelegado;
-
-        private delgateFullName mostrarNombreCompleto;
+        //private delgateFullName mostrarNombreCompleto;
 
         public Delegado() {
             //PruebaDelegado = (Money m, EventArgs e) =>
@@ -46,9 +45,6 @@ namespace learning_net
             //    Console.WriteLine("Ingreso al delegado");
             //};
         }
-
-        internal primerDelegado PruebaDelegado { get => pruebaDelegado; set => pruebaDelegado = value; }
-
 
         public bool Crear() {
 
@@ -216,8 +212,6 @@ namespace learning_net
     internal delegate void firstDelegate(string arg);
 
     internal delegate void addDelegate(string arg);
-
-    internal delegate void primerDelegado(Money m, EventArgs args);
 
     internal delegate string delgateFullName(Cliente cliente);
 }
